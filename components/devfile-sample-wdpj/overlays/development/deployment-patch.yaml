@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-wdpj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0040-tenant/ci1t-830-0040-app/devfile-sample-wdpj@sha256:a79fd3ce4b8aa570c92bbf6a2c8d951ef50a45a65811587257679b246300fd0f
+        name: my-nodejs
+        resources: {}
+status: {}
